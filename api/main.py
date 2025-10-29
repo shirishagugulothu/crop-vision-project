@@ -21,7 +21,8 @@ app.add_middleware(
 )
 
 # Load your new, powerful ResNet model
-MODEL = tf.keras.models.load_model("models/potatoes_model.h5")
+# The ../ tells it to go up one folder from 'api' to the main project directory
+MODEL = tf.keras.models.load_model("../models/potatoes_model.h5") 
 
 # The class names must match the order from your training script
 CLASS_NAMES = ['Potato Early Blight', 'Potato Late Blight', 'Potato Healthy']
