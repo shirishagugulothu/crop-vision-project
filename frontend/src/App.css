@@ -1,0 +1,49 @@
+/* This is the code for App.css */
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #3a3f4a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 2px solid #61dafb;
+}
+
+button {
+  background-color: #61dafb; /* A nice blue */
+  color: #282c34; /* Dark text */
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #52b8d8; /* A slightly darker blue on hover */
+}
+
+input[type="file"] {
+  margin-top: 20px;
+}
