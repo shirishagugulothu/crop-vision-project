@@ -11,6 +11,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "https://crop-vision-project.vercel.app", # <<< ADD THIS LINE
 ]
 app.add_middleware(
     CORSMiddleware,
